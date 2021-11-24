@@ -1,0 +1,125 @@
+a{
+    text-decoration: none;
+    color: #9d5c63;
+}
+a:hover{
+    color: #584b53;
+}
+main{
+    background-color: #e9e0d86e;
+}
+header{
+    background-color: #e4bb9759;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 3;
+    top: 0%;
+}
+h1{
+    font-family: 'Courier Prime', monospace;
+    color: #584b53;
+}
+h2, h3, p{
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Montserrat', sans-serif;
+    color: #9d5c63;
+}
+.card-text{
+    color:#584b53;
+    display: flex;
+    text-align: center;
+}
+.card{
+    background-color: #e4bb97 ;
+    border-width: 20px;
+    border: double; color: #e4bb97;
+    opacity: 80%;
+    transition: 2s;
+}
+.card:hover{
+    transition: 2s;
+    opacity: 100%;
+}
+.introduccion{
+    background-color: #e4bb97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    width: 100%;
+    height: 80vh;
+}
+.curso{
+    background-color: #fef5ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    height: 80vh;
+}
+.cursoDos{
+    background-color:#e4bb97 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 20px 0px;
+    row-gap: 50px;
+    height: 110vh;
+}
+.proyecto{
+    background-color:#fef5ef ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding: 20px 0px 20px 0px;
+    height: 80vh;
+}
+.diseño{
+    background-color:#e4bb97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    height: 70vh;
+}
+.diseñoDos{
+    background-color:#fef5ef;
+    padding: 40px 0px 40px 0px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: repeat(2, 10vh);
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+.card-title{
+    color:#584b53;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contacto{
+    background-color: #e4bb97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    height: 60vh;
+}
+.contactoDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: stretch;
+
+}
